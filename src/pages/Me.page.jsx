@@ -1,5 +1,5 @@
 import React from "react";
-import '../style/Me.style.css'
+import '../styles/Me.style.css'
 export default function Me() {
   return (
     <div className="about-container">
