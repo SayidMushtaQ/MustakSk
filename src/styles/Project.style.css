@@ -1,19 +1,17 @@
 /* Portfolio Card Styles */
 .portfolio-card {
     width: 100%;
-    max-width: 350px;
-    border-radius: 16px;
+    border-radius: 8px;
+    max-width: 400px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     background-color: #1e1e1e;
-    border: 1px solid #333;
     color: white;
   }
   
   
   .portfolio-image {
     width: 100%;
-    height: 120px;
+    height: 150px;
     object-fit: cover;
   }
   
@@ -30,34 +28,42 @@
   
   .portfolio-description {
     font-size: 0.9rem;
+    width: 100%; /* Set a fixed width */
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limit to 3 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
     color: #b0b0b0;
+    display: box;
+    line-clamp: 3;
+    box-orient: vertical;
+    margin-top: 6px;
   }
   
   .portfolio-button {
-    padding: 8px 16px;
-    background-color: #007bff;
-    color: white;
-    font-size: 0.9rem;
-    font-weight: bold;
-    border-radius: 6px;
+    padding: 4px 8px;
+    background-color: #E0E0E0;
+    color: #1e1e1e;
+    font-weight: 600;
+    border-radius: 2px;
   }
-  
+  .portfolio-button-container{
+    margin-top: 20px;
+  }
   
   /* Projects Page Styles */
   .projects-page {
     padding: 40px 20px;
-    background-color: #121212;
-    min-height: 100vh;
+    min-height: 60vh;
   }
   
   .projects-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #ffffff;
   }
   
   .projects-description {
-    font-size: 1rem;
     color: #b0b0b0;
     margin-top: 8px;
   }
@@ -65,8 +71,8 @@
   .projects-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start;
     gap: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   
