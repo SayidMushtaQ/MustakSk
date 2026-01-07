@@ -50,6 +50,16 @@ export const projects = [
     date: "2025-03-05",
   },
   {
+    title: "🚀 3D Interactive Experience – Three.js Web Project",
+    description:
+      "Worked as a Front End Developer on this 3D interactive experience built with Three.js. Created dynamic visual animations, interactive elements, and smooth real‑time rendering to deliver an engaging browser‑based 3D interface. Focused on performance, responsiveness, and immersive UI interactions.",
+    image:
+      "https://res.cloudinary.com/fileuploadingclo/image/upload/v1767795986/Screenshot_2026-01-07_at_19-56-10_signalspire_hy4l70.png",
+    link: "https://superlative-pony-222a7e.netlify.app/",
+    category: "Web",
+    date: "2025-04-12",
+  },
+  {
     title: "📺 Hulu 2.0 – Streaming Platform Clone",
     description:
       "Worked as a Front End Developer on Hulu 2.0, a streaming platform clone inspired by Hulu’s UI. Built interactive UI components for browsing trending movies and TV shows, implemented responsive layouts, and translated design into a smooth, user‑friendly interface using React and Tailwind CSS.",
