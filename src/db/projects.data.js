@@ -50,6 +50,16 @@ export const projects = [
     date: "2025-03-05",
   },
   {
+    title: "🌐 Prohaydyman – Professional Services Website",
+    description:
+      "Worked as a Front End Developer on the Prohaydyman website, creating a responsive, modern UI for showcasing professional services. Built reusable components, optimized navigation and layout for mobile and desktop, and delivered a smooth, user-friendly browsing experience using modern frontend technologies.",
+    image:
+      "https://res.cloudinary.com/fileuploadingclo/image/upload/v1767841139/Screenshot_2026-01-08_at_08-27-51_Create_Next_App_u6nu89.png",
+    link: "https://sweet-croquembouche-64542d.netlify.app/",
+    category: "Web",
+    date: "2025-04-18",
+  },
+  {
     title: "🚀 3D Interactive Experience – Three.js Web Project",
     description:
       "Worked as a Front End Developer on this 3D interactive experience built with Three.js. Created dynamic visual animations, interactive elements, and smooth real‑time rendering to deliver an engaging browser‑based 3D interface. Focused on performance, responsiveness, and immersive UI interactions.",
